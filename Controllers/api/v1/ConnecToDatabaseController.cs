@@ -1,10 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.Data.SqlClient;
 
 namespace SAP_Transfer.Controllers.api.v1
 {
     [Route("api/v1/[controller]")]
-    public class ConnecToDatbaseController : Controller
+    public class ConnecToDatabaseController : Controller
     {
         [HttpGet]
         public IActionResult Get()
